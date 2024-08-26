@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+    text-align: center;
+    background-color: aqua;
+    max-width: 600px;
+    margin:  50px auto;
+    width: 100%;
+    padding: 30px;
+    border-radius: 30px;
+}
+.input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 300px;
+    background-color: rgb(255, 96, 96);
+    border-radius: 30px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.btn{
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: greenyellow;
+    font-weight: 900;
+}
+.list{
+    max-width: 600px;
+    margin: 0 auto;
+    list-style: none;
+}
+.item{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.delete{
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    margin-right: 20px;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+}
+.edit{
+    width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: 900;
+}
